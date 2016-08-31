@@ -9,5 +9,6 @@ require 'rails_helper'
 
   	  it { should have_content('Sign up')}
   	  it { should have_title("#{base_title} | Sign up") } 
+  	  
     end
   end
