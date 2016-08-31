@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
+  gem 'factory_girl_rails', '4.2.1'
   gem "rspec-rails"
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.2.0'
